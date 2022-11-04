@@ -17,6 +17,7 @@ document.getElementById('resetTimer').addEventListener('click', ()=>{
     clearInterval(int);
     [milliseconds,seconds,minutes,hours] = [0,0,0,0];
     timerRef.innerHTML = '00 : 00 : 00 : 000 ';
+    alert("Thank you for using the stopwatch");
 });
 
 function displayTimer(){
